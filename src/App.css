@@ -59,7 +59,7 @@ header > img {
   align-items: center;
   gap: 0.2rem;
 
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #f5f5f5;
   text-decoration: none;
 }
@@ -108,13 +108,14 @@ main {
   margin: auto;
 }
 
-.info-title {
-  font-size: 1.7rem;
+.info--title {
+  margin: 0.5rem 0;
+  font-size: 2rem;
   color: #f5f5f5;
 }
 
-.info-details {
-  font-size: 1.1rem;
+.info--details {
+  font-size: 1.3rem;
   line-height: 1.5;
   color: #dcdcdc;
 }
