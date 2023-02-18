@@ -89,6 +89,11 @@ header > img {
   text-decoration: none;
 }
 
+.header--btns a:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s;
+}
+
 .header--btns svg {
   font-size: 1.8rem;
 }
@@ -139,4 +144,10 @@ footer {
 
 .footer--url svg {
   font-size: 2.5rem;
+}
+
+@media screen and (min-width: 375px) {
+  .App {
+    width: 35rem;
+  }
 }

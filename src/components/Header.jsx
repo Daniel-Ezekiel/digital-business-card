@@ -8,7 +8,7 @@ function Header() {
       <img src={profilePhoto} alt="card--logo" />
       <h1 className="card--owner">Daniel B. Ezekiel</h1>
       <p className="card--title">Frontend Developer</p>
-      <a className="card--url" href="https://danielezekiel.me">
+      <a className="card--url" href="https://danielezekiel.me" target="_blank">
         <Link />
         danielezekiel.me
       </a>
@@ -25,6 +25,7 @@ function Header() {
           icon={<LinkedIn />}
           label="LinkedIn"
           url="https://linkedin.com/in/db-ezekiel"
+          target="_blank"
         />
       </div>
     </header>

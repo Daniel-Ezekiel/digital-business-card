@@ -1,6 +1,6 @@
 function Button({ className, icon, label, url }) {
   return (
-    <a className={className} href={url}>
+    <a className={className} href={url} target="_blank">
       {icon}
       {label}
     </a>
